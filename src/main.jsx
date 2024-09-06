@@ -28,6 +28,10 @@ const router = createBrowserRouter([
       {
         path : 'Service',
         element : <Service />
+      },
+      {
+        path : '*',
+        element : <h1>404 Not Found</h1>
       }
     ]
   }
